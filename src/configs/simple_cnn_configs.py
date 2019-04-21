@@ -41,7 +41,7 @@ simple_cnn_configs.set_root_config({
     "m": 0.9,
     "loss": "categorical_crossentropy",
     "reload_before_drop": False,
-    "n_epochs": 150,
+    "n_epochs": 50,
     "opt_kwargs": "{}",
     "optim": "sgd",
     "batch_size": 128,

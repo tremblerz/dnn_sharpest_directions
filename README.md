@@ -20,6 +20,7 @@ Few exemplary commands for running experiments are given here
 
 To measure the largest eigenvalues of the Hessian along the trajectory run: 
 
+``export PYTHONPATH=.``
 ``python bin/train_simple_cnn_cifar.py medium example --lanczos_top_K=5 --lanczos_top_K_N=2250``
 
 This will run training of SimpleCNN (medium size) while evaluating top $K=5$ eigenvalues (using $2250$ random samples
